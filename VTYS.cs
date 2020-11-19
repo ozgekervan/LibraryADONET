@@ -30,7 +30,6 @@ namespace LibraryADONET
                 return false;
             }
         }
-
         public static SqlDataReader SqlExecuteReader(SqlCommand cmd)
         {
             SqlConnection conn = new SqlConnection(connString);
